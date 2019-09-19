@@ -21,23 +21,30 @@
   color: #09d3ac;
 }
 
+/* .userForm-Section {
+  background-color: #69BCA2;
+  border: 1px solid black;
+  margin: 0 500px
+} */
 
 .userForm-Section form {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   padding: 150px;
-  margin: 50px 350px
+  margin: 50px 350px;
+  background-color: #69BCA2;
+  border: 1px solid black;
 }
 
 .userForm-Section input {
   margin-bottom: 50px;
   width: 300px;
-  border: 1px solid white;
+  border: 1px solid #69BCA2;;
   border-bottom: 1px solid black;
   font-size: 21px;
   outline: none;
   height: 30px;
+  background-color: #69BCA2;
 }
 
 .fullName {
@@ -83,7 +90,7 @@
 #checkbox {
     width: 35px;
     height: 45px;
-
+    margin-left: 94px;
 }
 
 .checkbox-section {
