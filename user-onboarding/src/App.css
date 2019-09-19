@@ -20,3 +20,16 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.userForm-Section form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 150px;
+  margin: 50px 400px
+}
+
+.userForm-Section input {
+  margin-bottom: 50px;
+}
