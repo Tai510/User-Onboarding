@@ -27,9 +27,69 @@
   flex-direction: column;
   border: 1px solid black;
   padding: 150px;
-  margin: 50px 400px
+  margin: 50px 350px
 }
 
 .userForm-Section input {
   margin-bottom: 50px;
+  width: 300px;
+  border: 1px solid white;
+  border-bottom: 1px solid black;
+  font-size: 21px;
+  outline: none;
+  height: 30px;
+}
+
+.fullName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fullName p {
+  font-size: 21px;
+  margin-top: 7px;
+}
+
+.email{
+  display: flex;
+  justify-content: space-between;
+}
+
+.email p {
+  font-size: 21px;
+  margin-top: 7px;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password p {
+  font-size: 21px;
+  margin-top: 7px;
+}
+
+.submit-button {
+  width: 130px;
+    margin-left: 165px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #8680AE;
+    border-radius: 5px;
+    color: white;
+}
+
+#checkbox {
+    width: 35px;
+    height: 45px;
+
+}
+
+.checkbox-section {
+  display: flex;
+}
+
+.name-error p {
+  margin: 0;
 }
